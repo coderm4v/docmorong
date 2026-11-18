@@ -1,0 +1,288 @@
+{
+  "topics": [
+    {
+      "slug": "vu-tru",
+      "name": "Khám phá Vũ trụ",
+      "subtitle": "Từ Trái Đất nhìn ra không gian",
+      "articles": [
+        {
+          "slug": "tau-tham-do-sao-hoa",
+          "image": "01-sao-hoa",
+          "title": "Tàu thăm dò Sao Hỏa",
+          "question": "Bạn có biết con người tìm hiểu một hành tinh ở rất xa bằng cách nào không? Một trong những cách đó là gửi tàu thăm dò vào không gian.",
+          "body": "Trên Sao Hỏa, xe tự hành Perseverance di chuyển trên bề mặt, chụp ảnh, quan sát đất đá và thu thập dữ liệu. Những thông tin gửi về Trái Đất giúp các nhà khoa học tìm hiểu môi trường trên hành tinh này và tìm dấu hiệu cho biết nơi đây từng có điều kiện thích hợp cho sự sống hay không. Nhờ tàu thăm dò, con người có thể nghiên cứu Sao Hỏa mà chưa cần trực tiếp đặt chân đến đó.",
+          "think": [
+            "Tàu thăm dò giúp con người khám phá Sao Hỏa bằng cách nào?",
+            "Theo em, vì sao xe tự hành cần gửi hình ảnh và dữ liệu về Trái Đất?"
+          ],
+          "fun": "Những xe tự hành trên Sao Hỏa được điều khiển từ Trái Đất, nhưng tín hiệu cần thời gian mới truyền tới nơi.",
+          "source": {
+            "name": "NASA Space Place – The Mars Rovers",
+            "url": "https://spaceplace.nasa.gov/mars-rovers/"
+          }
+        },
+        {
+          "slug": "he-mat-troi",
+          "image": "02-he-mat-troi",
+          "title": "Những hành tinh trong Hệ Mặt Trời",
+          "question": "Bạn có bao giờ tự hỏi ngoài Trái Đất, quanh Mặt Trời còn có những hành tinh nào không?",
+          "body": "Hệ Mặt Trời có tám hành tinh cùng quay quanh Mặt Trời theo những quỹ đạo riêng. Tính từ gần Mặt Trời ra xa là: Sao Thủy, Sao Kim, Trái Đất, Sao Hỏa, Sao Mộc, Sao Thổ, Sao Thiên Vương và Sao Hải Vương. Mỗi hành tinh có đặc điểm khác nhau. Trái Đất là nơi chúng ta sinh sống; Sao Mộc là hành tinh lớn nhất, còn Sao Thổ nổi bật với những vành đai rộng lớn. Tìm hiểu các hành tinh giúp chúng ta hiểu thêm về không gian bao la.",
+          "think": [
+            "Hãy kể tên tám hành tinh theo thứ tự từ gần Mặt Trời ra xa.",
+            "Em muốn tìm hiểu thêm về hành tinh nào? Vì sao?"
+          ],
+          "fun": "Sao Mộc lớn đến mức có thể chứa hơn 1.300 Trái Đất nếu chỉ so sánh thể tích.",
+          "source": {
+            "name": "NASA Space Place – All About the Planets",
+            "url": "https://spaceplace.nasa.gov/planets/"
+          }
+        },
+        {
+          "slug": "kinh-thien-van-hubble",
+          "image": "03-hubble",
+          "title": "Kính thiên văn Hubble",
+          "question": "Làm thế nào các nhà khoa học có thể quan sát những ngôi sao và thiên hà ở rất xa Trái Đất?",
+          "body": "Hubble là kính thiên văn được đưa lên quỹ đạo quanh Trái Đất vào năm 1990. Thiết bị này thu nhận ánh sáng từ các vật thể xa trong vũ trụ và ghi lại hình ảnh. Vì quan sát từ ngoài phần lớn khí quyển Trái Đất, Hubble có thể chụp được nhiều hình ảnh rõ nét. Những bức ảnh ấy giúp các nhà khoa học nghiên cứu ngôi sao, tinh vân và thiên hà, từ đó hiểu thêm về sự hình thành và phát triển của vũ trụ.",
+          "think": [
+            "Kính thiên văn Hubble giúp các nhà khoa học làm được việc gì?",
+            "Vì sao hình ảnh từ kính thiên văn có ích cho việc nghiên cứu vũ trụ?"
+          ],
+          "fun": "Hubble đã gửi về Trái Đất hàng triệu quan sát và góp phần tạo nên nhiều bức ảnh vũ trụ nổi tiếng.",
+          "source": {
+            "name": "NASA Space Place – The Amazing Hubble Telescope",
+            "url": "https://spaceplace.nasa.gov/hubble/en/"
+          }
+        },
+        {
+          "slug": "tram-vu-tru-quoc-te",
+          "image": "04-tram-vu-tru",
+          "title": "Trạm Vũ trụ Quốc tế",
+          "question": "Bạn có tưởng tượng được một phòng thí nghiệm bay quanh Trái Đất và có người sống, làm việc ở đó không?",
+          "body": "Trạm Vũ trụ Quốc tế là một phòng thí nghiệm lớn bay quanh Trái Đất. Các phi hành gia sống và làm việc tại đây trong thời gian thực hiện nhiệm vụ. Họ tiến hành thí nghiệm, quan sát Trái Đất và tìm hiểu cách con người sinh hoạt trong môi trường gần như không trọng lực. Trạm được xây dựng và sử dụng nhờ sự hợp tác của nhiều quốc gia. Những nghiên cứu tại đây giúp các nhà khoa học hiểu thêm về vũ trụ và chuẩn bị cho những chuyến bay dài ngày.",
+          "think": [
+            "Vì sao các nhà khoa học cần làm thí nghiệm trong không gian?",
+            "Các phi hành gia làm những công việc gì trên trạm?"
+          ],
+          "fun": "Trạm Vũ trụ Quốc tế bay quanh Trái Đất ở tốc độ khoảng 28.000 km mỗi giờ.",
+          "source": {
+            "name": "NASA – International Space Station",
+            "url": "https://www.nasa.gov/international-space-station/"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "robot-ai",
+      "name": "Rô-bốt và AI",
+      "subtitle": "Máy móc hỗ trợ con người",
+      "articles": [
+        {
+          "slug": "canh-tay-robot",
+          "image": "05-canh-tay-robot",
+          "title": "Cánh tay rô-bốt trong nhà máy",
+          "question": "Em có biết trong một số nhà máy, những cánh tay máy có thể làm việc rất nhanh và chính xác không?",
+          "body": "Cánh tay rô-bốt được lập trình để thực hiện các công việc như hàn, sơn, lắp ráp hoặc nâng chuyển đồ vật. Chúng có thể lặp lại một thao tác nhiều lần với độ chính xác cao. Nhờ vậy, một số công việc nặng nhọc, nguy hiểm hoặc cần sự đều đặn được thực hiện nhanh và ổn định hơn. Tuy nhiên, rô-bốt không tự làm mọi việc. Con người vẫn cần thiết kế chương trình, điều khiển, kiểm tra và bảo dưỡng máy móc để chúng hoạt động an toàn.",
+          "think": [
+            "Rô-bốt trong nhà máy thường hỗ trợ những công việc nào?",
+            "Vì sao con người vẫn cần kiểm tra hoạt động của rô-bốt?"
+          ],
+          "fun": "Một cánh tay rô-bốt công nghiệp có thể lặp lại cùng một thao tác hàng nghìn lần.",
+          "source": {
+            "name": "International Federation of Robotics – Industrial Robots",
+            "url": "https://ifr.org/industrial-robots"
+          }
+        },
+        {
+          "slug": "robot-benh-vien",
+          "image": "06-robot-benh-vien",
+          "title": "Rô-bốt hỗ trợ trong bệnh viện",
+          "question": "Em có biết rô-bốt cũng có thể làm việc trong bệnh viện, bên cạnh các bác sĩ và điều dưỡng không?",
+          "body": "Một số bệnh viện sử dụng rô-bốt để vận chuyển thuốc, đồ vải hoặc vật dụng giữa các khu vực. Có loại rô-bốt tự di chuyển theo lộ trình đã được cài đặt và dùng cảm biến để nhận biết, tránh chướng ngại vật. Nhờ đó, nhân viên y tế tiết kiệm thời gian cho một số việc vận chuyển và có thêm thời gian chăm sóc người bệnh. Dù hiện đại đến đâu, rô-bốt vẫn chỉ là thiết bị hỗ trợ. Việc thăm khám, chăm sóc và quyết định điều trị vẫn do con người đảm nhiệm.",
+          "think": [
+            "Rô-bốt có thể giúp nhân viên bệnh viện làm những công việc gì?",
+            "Theo em, vì sao rô-bốt không thể thay thế hoàn toàn bác sĩ?"
+          ],
+          "fun": "Có rô-bốt bệnh viện tự động mở cửa hoặc gọi thang máy để di chuyển giữa các tầng.",
+          "source": {
+            "name": "International Federation of Robotics – Service Robots",
+            "url": "https://ifr.org/service-robots"
+          }
+        },
+        {
+          "slug": "robot-hut-bui",
+          "image": "07-robot-hut-bui",
+          "title": "Rô-bốt hút bụi trong gia đình",
+          "question": "Em đã từng nhìn thấy một chiếc máy tròn nhỏ tự chạy quanh nhà để hút bụi chưa?",
+          "body": "Rô-bốt hút bụi là thiết bị có thể tự di chuyển trên sàn để hút bụi và những mẩu rác nhỏ. Một số loại được trang bị cảm biến để nhận biết vật cản, tránh va vào đồ đạc và tìm đường đi trong phòng. Người sử dụng có thể cài đặt thời gian để máy tự làm việc. Tuy nhiên, trước khi bật máy, chúng ta nên dọn dây điện và đồ vật nhỏ khỏi sàn, đồng thời vệ sinh thiết bị định kì. Rô-bốt giúp việc dọn dẹp thuận tiện hơn nhưng không thể thay thế hoàn toàn con người.",
+          "think": [
+            "Rô-bốt hút bụi cần gì để di chuyển và làm việc?",
+            "Em cần chuẩn bị gì trước khi cho rô-bốt hút bụi hoạt động?"
+          ],
+          "fun": "Một số rô-bốt hút bụi có thể tự quay về đế sạc khi pin gần hết.",
+          "source": {
+            "name": "International Federation of Robotics – Service Robots",
+            "url": "https://ifr.org/service-robots"
+          }
+        },
+        {
+          "slug": "tri-tue-nhan-tao",
+          "image": "08-tri-tue-nhan-tao",
+          "title": "Trí tuệ nhân tạo quanh em",
+          "question": "Em có từng dùng thiết bị nhận diện giọng nói, dịch ngôn ngữ hoặc gợi ý đường đi chưa?",
+          "body": "Đó có thể là những ứng dụng của trí tuệ nhân tạo, viết tắt là AI. AI là công nghệ giúp máy tính thực hiện một số công việc thường cần đến khả năng của con người, như nhận diện giọng nói, nhận biết hình ảnh hoặc gợi ý đường đi. AI có thể hỗ trợ học tập và công việc, nhưng đôi khi đưa ra thông tin chưa chính xác. Vì vậy, chúng ta cần kiểm tra kết quả bằng sách, tài liệu đáng tin cậy và hỏi người lớn khi cần thiết. Sử dụng AI có trách nhiệm giúp công nghệ trở nên hữu ích hơn.",
+          "think": [
+            "AI có thể giúp con người thực hiện những công việc nào?",
+            "Vì sao chúng ta cần kiểm tra thông tin do AI cung cấp?"
+          ],
+          "fun": "AI có thể nhận diện giọng nói, nhưng đôi khi vẫn nghe nhầm khi có nhiều tiếng ồn.",
+          "source": {
+            "name": "UNESCO – AI Competency Framework for Students",
+            "url": "https://www.unesco.org/en/articles/ai-competency-framework-students"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "nang-luong",
+      "name": "Năng lượng và Môi trường",
+      "subtitle": "Tìm hiểu cách tạo ra năng lượng sạch",
+      "articles": [
+        {
+          "slug": "dien-mat-troi",
+          "image": "09-dien-mat-troi",
+          "title": "Điện từ ánh nắng Mặt Trời",
+          "question": "Em có biết ánh nắng không chỉ giúp cây cối phát triển mà còn có thể được dùng để tạo ra điện không?",
+          "body": "Pin mặt trời gồm nhiều tế bào có khả năng biến ánh sáng thành điện năng. Khi ánh nắng chiếu vào các tế bào này, chúng tạo ra dòng điện. Nhiều tấm pin được ghép lại thành một hệ thống có thể cung cấp điện cho nhà ở, trường học hoặc nhà máy. Pin mặt trời thường được lắp trên mái nhà hoặc những nơi có nhiều ánh nắng. Đây là cách khai thác nguồn năng lượng tự nhiên mà không cần đốt than hay xăng ngay tại tấm pin.",
+          "think": [
+            "Ánh sáng Mặt Trời được chuyển thành điện nhờ thiết bị nào?",
+            "Theo em, vì sao pin mặt trời thường được lắp ở nơi có nhiều nắng?"
+          ],
+          "fun": "Pin mặt trời vẫn có thể tạo ra điện vào ngày nhiều mây, nhưng thường tạo ra ít điện hơn ngày nắng.",
+          "source": {
+            "name": "U.S. Energy Information Administration – Solar Photovoltaic Cells",
+            "url": "https://www.eia.gov/energyexplained/solar/photovoltaics-and-electricity.php"
+          }
+        },
+        {
+          "slug": "dien-gio",
+          "image": "10-dien-gio",
+          "title": "Những cánh quạt gió tạo ra điện",
+          "question": "Em có bao giờ nhìn thấy những chiếc quạt gió khổng lồ quay trên cánh đồng chưa?",
+          "body": "Đó là các tua-bin gió dùng để tạo ra điện. Khi gió thổi, cánh quạt quay và làm máy phát điện bên trong hoạt động. Nhiều tua-bin được đặt cùng nhau thành trang trại điện gió, thường ở nơi có gió mạnh và ổn định. Điện tạo ra được truyền đi để phục vụ sinh hoạt và sản xuất. Gió là nguồn năng lượng được bổ sung tự nhiên, không cần đốt nhiên liệu tại tua-bin. Tuy nhiên, lượng điện tạo ra phụ thuộc vào sức gió.",
+          "think": [
+            "Gió đã giúp con người tạo ra điện bằng cách nào?",
+            "Vì sao năng lượng gió được xem là nguồn năng lượng sạch?"
+          ],
+          "fun": "Cánh quạt tua-bin gió thường rất dài để đón được nhiều gió hơn.",
+          "source": {
+            "name": "U.S. Department of Energy – How Do Wind Turbines Work?",
+            "url": "https://www.energy.gov/cmei/systems/how-do-wind-turbines-work"
+          }
+        },
+        {
+          "slug": "xe-buyt-dien",
+          "image": "11-xe-buyt-dien",
+          "title": "Xe buýt điện",
+          "question": "Em có để ý một số thành phố đang sử dụng xe buýt chạy bằng điện thay cho xe dùng xăng, dầu không?",
+          "body": "Xe buýt điện sử dụng động cơ điện và pin để vận hành. Khi chạy, xe không thải khói từ ống xả như xe buýt dùng xăng hoặc dầu. Sau một thời gian hoạt động, xe cần được sạc pin tại trạm sạc chuyên dụng. Xe buýt điện góp phần giảm khói bụi và tiếng ồn ở khu vực đông dân cư. Tuy nhiên, mức độ thân thiện với môi trường còn phụ thuộc vào cách tạo ra điện và việc sản xuất, xử lí pin. Đây là một lựa chọn trong giao thông ít phát thải.",
+          "think": [
+            "Xe buýt điện khác xe buýt dùng xăng ở điểm nào?",
+            "Xe buýt điện cần được nạp năng lượng ở đâu?"
+          ],
+          "fun": "Một số xe buýt điện có thể thu hồi một phần năng lượng khi phanh để nạp lại pin.",
+          "source": {
+            "name": "U.S. Department of Energy – Emissions from Electric Vehicles",
+            "url": "https://afdc.energy.gov/vehicles/electric-emissions"
+          }
+        },
+        {
+          "slug": "ngoi-nha-tiet-kiem-nang-luong",
+          "image": "12-ngoi-nha-xanh",
+          "title": "Ngôi nhà tiết kiệm năng lượng",
+          "question": "Em có thể làm gì để ngôi nhà của mình vừa dễ chịu vừa không lãng phí điện?",
+          "body": "Một ngôi nhà tiết kiệm năng lượng được thiết kế và sử dụng hợp lí để hạn chế lãng phí điện. Gia đình có thể dùng đèn LED, tận dụng ánh sáng và gió tự nhiên, tắt thiết bị khi không sử dụng và chọn đồ điện phù hợp. Một số ngôi nhà còn lắp pin mặt trời trên mái để tạo ra điện. Những việc làm tưởng như nhỏ bé ấy giúp giảm lượng điện tiêu thụ, tiết kiệm chi phí và góp phần giảm tác động đến môi trường. Mỗi thành viên đều có thể chung tay xây dựng ngôi nhà xanh.",
+          "think": [
+            "Em có thể làm việc gì ở nhà để tiết kiệm điện?",
+            "Vì sao tận dụng ánh sáng tự nhiên giúp giảm tiêu thụ năng lượng?"
+          ],
+          "fun": "Đèn LED thường tiêu thụ ít điện hơn bóng đèn sợi đốt khi tạo ra lượng ánh sáng tương đương.",
+          "source": {
+            "name": "U.S. Department of Energy – Energy Saver",
+            "url": "https://www.energy.gov/energysaver/energy-saver"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "suc-khoe",
+      "name": "Khoa học và Sức khỏe",
+      "subtitle": "Khoa học giúp con người bảo vệ sức khỏe",
+      "articles": [
+        {
+          "slug": "kinh-hien-vi",
+          "image": "13-kinh-hien-vi",
+          "title": "Thế giới qua kính hiển vi",
+          "question": "Em có biết trên một giọt nước nhỏ có thể có những sinh vật mà mắt thường không nhìn thấy không?",
+          "body": "Kính hiển vi là thiết bị giúp con người quan sát những vật rất nhỏ mà mắt thường không nhìn rõ. Nhờ hệ thống thấu kính đặc biệt, hình ảnh của vật được phóng to lên nhiều lần. Qua kính hiển vi, các nhà khoa học có thể quan sát tế bào, một số vi sinh vật và những chi tiết nhỏ trong mẫu vật. Thiết bị này được sử dụng trong phòng thí nghiệm, trường học và cơ sở y tế. Nhờ kính hiển vi, con người khám phá một thế giới nhỏ bé nhưng vô cùng phong phú.",
+          "think": [
+            "Kính hiển vi giúp chúng ta quan sát những gì?",
+            "Vì sao kính hiển vi có ích trong học tập và nghiên cứu?"
+          ],
+          "fun": "Một số kính hiển vi hiện đại có thể phóng đại hình ảnh lên hàng trăm hoặc hàng nghìn lần.",
+          "source": {
+            "name": "NCBI Bookshelf – Microscopy",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK546149/"
+          }
+        },
+        {
+          "slug": "may-mri",
+          "image": "14-may-mri",
+          "title": "Máy chụp cộng hưởng từ MRI",
+          "question": "Em có biết bác sĩ có thể quan sát một số bộ phận bên trong cơ thể mà không cần phẫu thuật không?",
+          "body": "Máy chụp cộng hưởng từ, thường gọi là máy MRI, giúp tạo hình ảnh bên trong cơ thể. Máy sử dụng từ trường mạnh và sóng vô tuyến, không dùng tia X để tạo ảnh. Nhờ những hình ảnh này, bác sĩ có thể quan sát một số cơ quan và mô, từ đó có thêm thông tin khi kiểm tra sức khỏe và tìm nguyên nhân của một số vấn đề. Khi chụp MRI, người bệnh cần làm theo hướng dẫn của nhân viên y tế để bảo đảm an toàn.",
+          "think": [
+            "Máy MRI giúp bác sĩ quan sát điều gì bên trong cơ thể?",
+            "Khi chụp MRI, vì sao người bệnh cần làm theo hướng dẫn của nhân viên y tế?"
+          ],
+          "fun": "Máy MRI thường phát ra tiếng động lớn khi chụp, vì vậy người bệnh có thể được hướng dẫn dùng nút bịt tai.",
+          "source": {
+            "name": "NIBIB – Magnetic Resonance Imaging (MRI)",
+            "url": "https://www.nibib.nih.gov/science-education/science-topics/magnetic-resonance-imaging-mri"
+          }
+        },
+        {
+          "slug": "vac-xin",
+          "image": "15-vac-xin",
+          "title": "Vắc-xin giúp cơ thể phòng bệnh",
+          "question": "Em có biết vì sao tiêm chủng giúp con người phòng tránh được một số bệnh truyền nhiễm không?",
+          "body": "Vắc-xin là một thành tựu quan trọng của khoa học y học. Vắc-xin giúp hệ miễn dịch nhận biết một mầm bệnh và chuẩn bị cách chống lại mầm bệnh đó. Sau khi tiêm hoặc uống vắc-xin theo hướng dẫn, cơ thể có thể tạo ra sự bảo vệ đối với một số bệnh truyền nhiễm. Nhờ tiêm chủng, nhiều bệnh nguy hiểm đã được phòng ngừa hiệu quả hơn. Tuy nhiên, mỗi loại vắc-xin có lịch sử dụng riêng và không phòng được mọi bệnh. Vì vậy, mọi người cần thực hiện theo hướng dẫn của nhân viên y tế.",
+          "think": [
+            "Vắc-xin giúp cơ thể chuẩn bị bảo vệ mình như thế nào?",
+            "Vì sao cần thực hiện tiêm chủng theo hướng dẫn của nhân viên y tế?"
+          ],
+          "fun": "Tiêm chủng không chỉ giúp bảo vệ người được tiêm mà còn góp phần hạn chế sự lây lan của một số bệnh trong cộng đồng.",
+          "source": {
+            "name": "World Health Organization – What is vaccination?",
+            "url": "https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-what-is-vaccination"
+          }
+        },
+        {
+          "slug": "may-sieu-am",
+          "image": "16-sieu-am",
+          "title": "Máy siêu âm giúp bác sĩ",
+          "question": "Em có biết bác sĩ có thể nhìn thấy hình ảnh bên trong cơ thể nhờ những sóng âm mà tai người không nghe được không?",
+          "body": "Máy siêu âm là thiết bị y tế sử dụng sóng âm có tần số cao để tạo hình ảnh bên trong cơ thể. Đầu dò phát sóng âm vào cơ thể rồi thu lại tiếng vọng từ các mô và cơ quan. Máy tính xử lí những tín hiệu này để tạo thành hình ảnh trên màn hình. Siêu âm được sử dụng trong nhiều trường hợp khám bệnh và theo dõi sức khỏe. Đây là phương pháp tạo ảnh không sử dụng tia X. Bác sĩ sẽ lựa chọn cách kiểm tra phù hợp với từng người bệnh.",
+          "think": [
+            "Máy siêu âm dùng loại sóng nào để tạo hình ảnh?",
+            "Hình ảnh siêu âm giúp bác sĩ làm gì?"
+          ],
+          "fun": "Siêu âm cũng được dùng để quan sát chuyển động của một số bộ phận trong cơ thể.",
+          "source": {
+            "name": "RadiologyInfo – Ultrasound",
+            "url": "https://www.radiologyinfo.org/en/info/genus"
+          }
+        }
+      ]
+    }
+  ]
+}
