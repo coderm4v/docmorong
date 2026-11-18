@@ -1,0 +1,37 @@
+@import "tailwindcss" source(none);
+@source "../docs/**/*.html";
+
+@theme {
+  --font-display: "Baloo 2", "Be Vietnam Pro", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Be Vietnam Pro", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --color-ink: #1b2140;
+  --color-ink-soft: #4b5274;
+  --color-paper: #f2f5fb;
+  --color-sun: #ffc531;
+}
+
+@layer base {
+  html { -webkit-tap-highlight-color: transparent; }
+  :focus-visible { outline: 3px solid var(--color-sun); outline-offset: 3px; border-radius: 10px; }
+  details > summary { list-style: none; }
+  details > summary::-webkit-details-marker { display: none; }
+}
+
+/* Nền sao lấp lánh cho dải tiêu đề */
+@utility stars {
+  background-image:
+    radial-gradient(circle at 12% 30%, rgb(255 255 255 / .55) 0 1.5px, transparent 2.5px),
+    radial-gradient(circle at 82% 18%, rgb(255 255 255 / .7) 0 2px, transparent 3px),
+    radial-gradient(circle at 64% 72%, rgb(255 255 255 / .4) 0 1.5px, transparent 2.5px),
+    radial-gradient(circle at 92% 64%, rgb(255 255 255 / .5) 0 1.5px, transparent 2.5px),
+    radial-gradient(circle at 36% 88%, rgb(255 255 255 / .35) 0 1.5px, transparent 2.5px);
+}
+
+/* Lightbox: chữ chú thích dùng font của trang */
+.glightbox-clean .gslide-title { font-family: var(--font-display); font-size: 1.15rem; font-weight: 700; margin: 0; }
+.glightbox-clean .gslide-description { background: #fff; }
+.glightbox-clean .gdesc-inner { padding: 12px 16px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}

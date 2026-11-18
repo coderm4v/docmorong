@@ -2,53 +2,90 @@
 <html lang="vi">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Khoa học và Sức khỏe – Thư viện Đọc mở rộng</title>
 <meta name="description" content="Khoa học giúp con người bảo vệ sức khỏe">
 <meta name="theme-color" content="#0b7f7a">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../style.css">
-</head>
-<body style="--c:#0b7f7a;--tint:#e0f5f3">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
 
-<header class="band">
-  <div class="wrap">
-    <a class="crumb" href="../">Thư viện Đọc mở rộng</a>
-    <h1>Khoa học và Sức khỏe</h1>
-    <p class="sub">Khoa học giúp con người bảo vệ sức khỏe</p>
+</head>
+<body class="min-h-dvh bg-paper font-body text-ink antialiased" style="--c:#0b7f7a;--tint:#dff4f2">
+
+<header class="relative overflow-hidden rounded-b-[2.5rem] bg-(--c) pb-16 text-white">
+  <span class="stars pointer-events-none absolute inset-0"></span>
+  <div class="relative mx-auto max-w-3xl px-5 pt-5">
+    <a href="../" class="inline-flex items-center gap-1.5 rounded-full bg-white/15 py-1.5 pr-4 pl-2.5 text-sm font-semibold backdrop-blur hover:bg-white/25"><svg class="size-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" /> <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /> </svg> Thư viện Đọc mở rộng</a>
+    <div class="mt-6 flex items-center gap-4">
+      <span class="grid size-16 shrink-0 place-items-center rounded-2xl bg-white text-(--c) shadow-lg"><svg class="size-9" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" /> <path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27" /> </svg></span>
+      <div>
+        <h1 class="font-display text-[2.1rem] leading-[1.05] font-extrabold sm:text-5xl">Khoa học và Sức khỏe</h1>
+        <p class="mt-1 text-white/90">Khoa học giúp con người bảo vệ sức khỏe</p>
+      </div>
+    </div>
   </div>
 </header>
-<main class="wrap">
-  <p class="hint">Chọn một bài để đọc nhé!</p>
-  <ol class="cards">
+<main class="mx-auto -mt-9 max-w-3xl px-5">
+  <p class="relative inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 font-display text-lg font-bold text-(--c) shadow-md ring-2 ring-(--c)"><svg class="size-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 7v14" /> <path d="M16 12h2" /> <path d="M16 8h2" /> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" /> <path d="M6 12h2" /> <path d="M6 8h2" /> </svg> Chọn một bài để đọc nhé!</p>
+  <ol class="mt-6 grid gap-6 sm:grid-cols-2">
     <li>
-      <a class="card" href="kinh-hien-vi.html">
-        <img src="../img/13-kinh-hien-vi-m.webp" width="900" height="600" alt="" fetchpriority="high">
-        <span class="card-text"><span class="num">Bài 1</span><span class="card-title">Thế giới qua kính hiển vi</span></span>
+      <a href="kinh-hien-vi.html" class="group block overflow-hidden rounded-3xl bg-white shadow-[0_6px_0_var(--tint)] ring-2 ring-(--tint) transition active:translate-y-1 active:shadow-[0_2px_0_var(--tint)] hover:ring-(--c)">
+        <div class="relative">
+          <img src="../img/13-kinh-hien-vi-m.webp" width="900" height="600" alt="" fetchpriority="high" class="aspect-[16/9] w-full object-cover transition duration-500 group-hover:scale-[1.03]">
+          <span class="absolute top-3 left-3 rounded-full bg-white/95 px-3 py-1 text-sm font-bold text-(--c) shadow">Bài 1</span>
+        </div>
+        <div class="flex items-center gap-3 px-5 py-4">
+          <h2 class="flex-1 font-display text-[1.4rem] leading-tight font-bold text-balance">Thế giới qua kính hiển vi</h2>
+          <span class="grid size-11 shrink-0 place-items-center rounded-full bg-(--c) text-white transition group-hover:translate-x-1"><svg class="size-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M5 12h14" /> <path d="m12 5 7 7-7 7" /> </svg></span>
+        </div>
       </a>
     </li>
     <li>
-      <a class="card" href="may-mri.html">
-        <img src="../img/14-may-mri-m.webp" width="900" height="600" alt="" loading="lazy">
-        <span class="card-text"><span class="num">Bài 2</span><span class="card-title">Máy chụp cộng hưởng từ MRI</span></span>
+      <a href="may-mri.html" class="group block overflow-hidden rounded-3xl bg-white shadow-[0_6px_0_var(--tint)] ring-2 ring-(--tint) transition active:translate-y-1 active:shadow-[0_2px_0_var(--tint)] hover:ring-(--c)">
+        <div class="relative">
+          <img src="../img/14-may-mri-m.webp" width="900" height="600" alt="" loading="lazy" class="aspect-[16/9] w-full object-cover transition duration-500 group-hover:scale-[1.03]">
+          <span class="absolute top-3 left-3 rounded-full bg-white/95 px-3 py-1 text-sm font-bold text-(--c) shadow">Bài 2</span>
+        </div>
+        <div class="flex items-center gap-3 px-5 py-4">
+          <h2 class="flex-1 font-display text-[1.4rem] leading-tight font-bold text-balance">Máy chụp cộng hưởng từ MRI</h2>
+          <span class="grid size-11 shrink-0 place-items-center rounded-full bg-(--c) text-white transition group-hover:translate-x-1"><svg class="size-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M5 12h14" /> <path d="m12 5 7 7-7 7" /> </svg></span>
+        </div>
       </a>
     </li>
     <li>
-      <a class="card" href="vac-xin.html">
-        <img src="../img/15-vac-xin-m.webp" width="900" height="600" alt="" loading="lazy">
-        <span class="card-text"><span class="num">Bài 3</span><span class="card-title">Vắc-xin giúp cơ thể phòng bệnh</span></span>
+      <a href="vac-xin.html" class="group block overflow-hidden rounded-3xl bg-white shadow-[0_6px_0_var(--tint)] ring-2 ring-(--tint) transition active:translate-y-1 active:shadow-[0_2px_0_var(--tint)] hover:ring-(--c)">
+        <div class="relative">
+          <img src="../img/15-vac-xin-m.webp" width="900" height="600" alt="" loading="lazy" class="aspect-[16/9] w-full object-cover transition duration-500 group-hover:scale-[1.03]">
+          <span class="absolute top-3 left-3 rounded-full bg-white/95 px-3 py-1 text-sm font-bold text-(--c) shadow">Bài 3</span>
+        </div>
+        <div class="flex items-center gap-3 px-5 py-4">
+          <h2 class="flex-1 font-display text-[1.4rem] leading-tight font-bold text-balance">Vắc-xin giúp cơ thể phòng bệnh</h2>
+          <span class="grid size-11 shrink-0 place-items-center rounded-full bg-(--c) text-white transition group-hover:translate-x-1"><svg class="size-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M5 12h14" /> <path d="m12 5 7 7-7 7" /> </svg></span>
+        </div>
       </a>
     </li>
     <li>
-      <a class="card" href="may-sieu-am.html">
-        <img src="../img/16-sieu-am-m.webp" width="900" height="600" alt="" loading="lazy">
-        <span class="card-text"><span class="num">Bài 4</span><span class="card-title">Máy siêu âm giúp bác sĩ</span></span>
+      <a href="may-sieu-am.html" class="group block overflow-hidden rounded-3xl bg-white shadow-[0_6px_0_var(--tint)] ring-2 ring-(--tint) transition active:translate-y-1 active:shadow-[0_2px_0_var(--tint)] hover:ring-(--c)">
+        <div class="relative">
+          <img src="../img/16-sieu-am-m.webp" width="900" height="600" alt="" loading="lazy" class="aspect-[16/9] w-full object-cover transition duration-500 group-hover:scale-[1.03]">
+          <span class="absolute top-3 left-3 rounded-full bg-white/95 px-3 py-1 text-sm font-bold text-(--c) shadow">Bài 4</span>
+        </div>
+        <div class="flex items-center gap-3 px-5 py-4">
+          <h2 class="flex-1 font-display text-[1.4rem] leading-tight font-bold text-balance">Máy siêu âm giúp bác sĩ</h2>
+          <span class="grid size-11 shrink-0 place-items-center rounded-full bg-(--c) text-white transition group-hover:translate-x-1"><svg class="size-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M5 12h14" /> <path d="m12 5 7 7-7 7" /> </svg></span>
+        </div>
       </a>
     </li>
   </ol>
 </main>
-<footer class="foot wrap"><p>“Đọc hôm nay – Kiến tạo ngày mai!”</p></footer>
+
+<footer class="mx-auto max-w-3xl px-5 pt-10 pb-12 text-center">
+  <p class="font-display text-lg font-bold text-ink-soft">“Đọc hôm nay – Kiến tạo ngày mai!”</p>
+</footer>
+
 
 </body>
 </html>

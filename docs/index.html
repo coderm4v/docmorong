@@ -2,55 +2,92 @@
 <html lang="vi">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Thư viện Đọc mở rộng</title>
 <meta name="description" content="16 bài đọc mở rộng khoa học dành cho học sinh lớp 4">
 <meta name="theme-color" content="#23307a">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body style="--c:#23307a;--tint:#e8efff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
 
-<header class="band home-band">
-  <div class="wrap">
-    <h1>Thư viện Đọc mở rộng</h1>
-    <p class="sub">Khám phá tri thức – Mở rộng thế giới!</p>
+</head>
+<body class="min-h-dvh bg-paper font-body text-ink antialiased" style="--c:#23307a;--tint:#e8efff">
+
+<header class="relative overflow-hidden rounded-b-[2.5rem] bg-gradient-to-br from-[#1f2a72] to-[#3b52c9] pb-16 text-white">
+  <span class="stars pointer-events-none absolute inset-0"></span>
+  <div class="relative mx-auto max-w-3xl px-5 pt-10">
+    <span class="grid size-14 place-items-center rounded-2xl bg-sun text-[#1f2a72] shadow-lg"><svg class="size-8" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 7v14" /> <path d="M16 12h2" /> <path d="M16 8h2" /> <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" /> <path d="M6 12h2" /> <path d="M6 8h2" /> </svg></span>
+    <h1 class="mt-4 font-display text-[2.6rem] leading-[1.02] font-extrabold text-sun sm:text-6xl">Thư viện Đọc mở rộng</h1>
+    <p class="mt-2 text-lg text-white/90">Khám phá tri thức – Mở rộng thế giới!</p>
   </div>
 </header>
-<main class="wrap">
-  <ul class="topics">
+<main class="mx-auto -mt-8 max-w-3xl px-5">
+  <ul class="grid gap-6 sm:grid-cols-2">
     <li style="--c:#5b3fd1;--tint:#efeaff">
-      <a class="topic" href="vu-tru/">
-        <img src="img/01-sao-hoa-m.webp" width="900" height="507" alt="" loading="lazy">
-        <span class="topic-text"><span class="topic-name">Khám phá Vũ trụ</span><span class="topic-sub">Từ Trái Đất nhìn ra không gian</span>
-        <ol class="mini"><li>Tàu thăm dò Sao Hỏa</li><li>Những hành tinh trong Hệ Mặt Trời</li><li>Kính thiên văn Hubble</li><li>Trạm Vũ trụ Quốc tế</li></ol></span>
+      <a href="vu-tru/" class="group block h-full overflow-hidden rounded-3xl bg-white shadow-[0_6px_0_var(--tint)] ring-2 ring-(--tint) transition hover:ring-(--c) active:translate-y-1">
+        <div class="relative">
+          <img src="img/01-sao-hoa-m.webp" width="900" height="507" alt="" loading="lazy" class="aspect-[16/8] w-full object-cover">
+          <span class="absolute -bottom-6 left-5 grid size-14 place-items-center rounded-2xl bg-(--c) text-white shadow-lg ring-4 ring-white"><svg class="size-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" /> <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" /> <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" /> <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" /> </svg></span>
+        </div>
+        <div class="px-5 pt-9 pb-5">
+          <h2 class="font-display text-[1.6rem] leading-tight font-extrabold text-(--c)">Khám phá Vũ trụ</h2>
+          <p class="text-ink-soft">Từ Trái Đất nhìn ra không gian</p>
+          <ul class="mt-3 space-y-1 text-[1.02rem]"><li class="flex items-start gap-2"><span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-(--c)"></span>Tàu thăm dò Sao Hỏa</li><li class="flex items-start gap-2"><span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-(--c)"></span>Những hành tinh trong Hệ Mặt Trời</li><li class="flex items-start gap-2"><span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-(--c)"></span>Kính thiên văn Hubble</li><li class="flex items-start gap-2"><span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-(--c)"></span>Trạm Vũ trụ Quốc tế</li></ul>
+          <span class="mt-4 inline-flex items-center gap-2 rounded-full bg-(--c) px-5 py-2.5 font-semibold text-white">Vào đọc 4 bài <svg class="size-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M5 12h14" /> <path d="m12 5 7 7-7 7" /> </svg></span>
+        </div>
       </a>
     </li>
-    <li style="--c:#18884a;--tint:#e3f6e9">
-      <a class="topic" href="robot-ai/">
-        <img src="img/05-canh-tay-robot-m.webp" width="900" height="507" alt="" loading="lazy">
-        <span class="topic-text"><span class="topic-name">Rô-bốt và AI</span><span class="topic-sub">Máy móc hỗ trợ con người</span>
-        <ol class="mini"><li>Cánh tay rô-bốt trong nhà máy</li><li>Rô-bốt hỗ trợ trong bệnh viện</li><li>Rô-bốt hút bụi trong gia đình</li><li>Trí tuệ nhân tạo quanh em</li></ol></span>
+    <li style="--c:#16884a;--tint:#e2f5e8">
+      <a href="robot-ai/" class="group block h-full overflow-hidden rounded-3xl bg-white shadow-[0_6px_0_var(--tint)] ring-2 ring-(--tint) transition hover:ring-(--c) active:translate-y-1">
+        <div class="relative">
+          <img src="img/05-canh-tay-robot-m.webp" width="900" height="507" alt="" loading="lazy" class="aspect-[16/8] w-full object-cover">
+          <span class="absolute -bottom-6 left-5 grid size-14 place-items-center rounded-2xl bg-(--c) text-white shadow-lg ring-4 ring-white"><svg class="size-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 8V4H8" /> <rect x="4" y="8" rx="2" /> <path d="M2 14h2" /> <path d="M20 14h2" /> <path d="M15 13v2" /> <path d="M9 13v2" /> </svg></span>
+        </div>
+        <div class="px-5 pt-9 pb-5">
+          <h2 class="font-display text-[1.6rem] leading-tight font-extrabold text-(--c)">Rô-bốt và AI</h2>
+          <p class="text-ink-soft">Máy móc hỗ trợ con người</p>
+          <ul class="mt-3 space-y-1 text-[1.02rem]"><li class="flex items-start gap-2"><span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-(--c)"></span>Cánh tay rô-bốt trong nhà máy</li><li class="flex items-start gap-2"><span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-(--c)"></span>Rô-bốt hỗ trợ trong bệnh viện</li><li class="flex items-start gap-2"><span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-(--c)"></span>Rô-bốt hút bụi trong gia đình</li><li class="flex items-start gap-2"><span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-(--c)"></span>Trí tuệ nhân tạo quanh em</li></ul>
+          <span class="mt-4 inline-flex items-center gap-2 rounded-full bg-(--c) px-5 py-2.5 font-semibold text-white">Vào đọc 4 bài <svg class="size-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M5 12h14" /> <path d="m12 5 7 7-7 7" /> </svg></span>
+        </div>
       </a>
     </li>
-    <li style="--c:#d4520f;--tint:#fff0e5">
-      <a class="topic" href="nang-luong/">
-        <img src="img/09-dien-mat-troi-m.webp" width="900" height="507" alt="" loading="lazy">
-        <span class="topic-text"><span class="topic-name">Năng lượng và Môi trường</span><span class="topic-sub">Tìm hiểu cách tạo ra năng lượng sạch</span>
-        <ol class="mini"><li>Điện từ ánh nắng Mặt Trời</li><li>Những cánh quạt gió tạo ra điện</li><li>Xe buýt điện</li><li>Ngôi nhà tiết kiệm năng lượng</li></ol></span>
+    <li style="--c:#d4520f;--tint:#fff0e4">
+      <a href="nang-luong/" class="group block h-full overflow-hidden rounded-3xl bg-white shadow-[0_6px_0_var(--tint)] ring-2 ring-(--tint) transition hover:ring-(--c) active:translate-y-1">
+        <div class="relative">
+          <img src="img/09-dien-mat-troi-m.webp" width="900" height="507" alt="" loading="lazy" class="aspect-[16/8] w-full object-cover">
+          <span class="absolute -bottom-6 left-5 grid size-14 place-items-center rounded-2xl bg-(--c) text-white shadow-lg ring-4 ring-white"><svg class="size-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" /> <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" /> </svg></span>
+        </div>
+        <div class="px-5 pt-9 pb-5">
+          <h2 class="font-display text-[1.6rem] leading-tight font-extrabold text-(--c)">Năng lượng và Môi trường</h2>
+          <p class="text-ink-soft">Tìm hiểu cách tạo ra năng lượng sạch</p>
+          <ul class="mt-3 space-y-1 text-[1.02rem]"><li class="flex items-start gap-2"><span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-(--c)"></span>Điện từ ánh nắng Mặt Trời</li><li class="flex items-start gap-2"><span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-(--c)"></span>Những cánh quạt gió tạo ra điện</li><li class="flex items-start gap-2"><span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-(--c)"></span>Xe buýt điện</li><li class="flex items-start gap-2"><span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-(--c)"></span>Ngôi nhà tiết kiệm năng lượng</li></ul>
+          <span class="mt-4 inline-flex items-center gap-2 rounded-full bg-(--c) px-5 py-2.5 font-semibold text-white">Vào đọc 4 bài <svg class="size-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M5 12h14" /> <path d="m12 5 7 7-7 7" /> </svg></span>
+        </div>
       </a>
     </li>
-    <li style="--c:#0b7f7a;--tint:#e0f5f3">
-      <a class="topic" href="suc-khoe/">
-        <img src="img/13-kinh-hien-vi-m.webp" width="900" height="600" alt="" loading="lazy">
-        <span class="topic-text"><span class="topic-name">Khoa học và Sức khỏe</span><span class="topic-sub">Khoa học giúp con người bảo vệ sức khỏe</span>
-        <ol class="mini"><li>Thế giới qua kính hiển vi</li><li>Máy chụp cộng hưởng từ MRI</li><li>Vắc-xin giúp cơ thể phòng bệnh</li><li>Máy siêu âm giúp bác sĩ</li></ol></span>
+    <li style="--c:#0b7f7a;--tint:#dff4f2">
+      <a href="suc-khoe/" class="group block h-full overflow-hidden rounded-3xl bg-white shadow-[0_6px_0_var(--tint)] ring-2 ring-(--tint) transition hover:ring-(--c) active:translate-y-1">
+        <div class="relative">
+          <img src="img/13-kinh-hien-vi-m.webp" width="900" height="600" alt="" loading="lazy" class="aspect-[16/8] w-full object-cover">
+          <span class="absolute -bottom-6 left-5 grid size-14 place-items-center rounded-2xl bg-(--c) text-white shadow-lg ring-4 ring-white"><svg class="size-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" /> <path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27" /> </svg></span>
+        </div>
+        <div class="px-5 pt-9 pb-5">
+          <h2 class="font-display text-[1.6rem] leading-tight font-extrabold text-(--c)">Khoa học và Sức khỏe</h2>
+          <p class="text-ink-soft">Khoa học giúp con người bảo vệ sức khỏe</p>
+          <ul class="mt-3 space-y-1 text-[1.02rem]"><li class="flex items-start gap-2"><span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-(--c)"></span>Thế giới qua kính hiển vi</li><li class="flex items-start gap-2"><span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-(--c)"></span>Máy chụp cộng hưởng từ MRI</li><li class="flex items-start gap-2"><span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-(--c)"></span>Vắc-xin giúp cơ thể phòng bệnh</li><li class="flex items-start gap-2"><span class="mt-2.5 size-1.5 shrink-0 rounded-full bg-(--c)"></span>Máy siêu âm giúp bác sĩ</li></ul>
+          <span class="mt-4 inline-flex items-center gap-2 rounded-full bg-(--c) px-5 py-2.5 font-semibold text-white">Vào đọc 4 bài <svg class="size-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M5 12h14" /> <path d="m12 5 7 7-7 7" /> </svg></span>
+        </div>
       </a>
     </li>
   </ul>
 </main>
-<footer class="foot wrap"><p>“Đọc hôm nay – Kiến tạo ngày mai!”</p></footer>
+
+<footer class="mx-auto max-w-3xl px-5 pt-10 pb-12 text-center">
+  <p class="font-display text-lg font-bold text-ink-soft">“Đọc hôm nay – Kiến tạo ngày mai!”</p>
+</footer>
+
 
 </body>
 </html>

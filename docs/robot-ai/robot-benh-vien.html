@@ -2,45 +2,81 @@
 <html lang="vi">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Rô-bốt hỗ trợ trong bệnh viện – Rô-bốt và AI</title>
 <meta name="description" content="Em có biết rô-bốt cũng có thể làm việc trong bệnh viện, bên cạnh các bác sĩ và điều dưỡng không?">
-<meta name="theme-color" content="#18884a">
+<meta name="theme-color" content="#16884a">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="../assets/glightbox.min.css">
 </head>
-<body style="--c:#18884a;--tint:#e3f6e9">
+<body class="min-h-dvh bg-paper font-body text-ink antialiased" style="--c:#16884a;--tint:#e2f5e8">
 
-<header class="topbar">
-  <div class="wrap">
-    <a class="back" href="./"><span aria-hidden="true">‹</span> Rô-bốt và AI</a>
-    <span class="count">Bài 2/4</span>
+<header class="sticky top-0 z-20 bg-(--c) text-white shadow-md">
+  <div class="mx-auto flex h-14 max-w-3xl items-center justify-between gap-3 px-3">
+    <a href="./" class="inline-flex items-center gap-1 rounded-full py-2 pr-3 pl-1 font-semibold hover:bg-white/15"><svg class="size-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m15 18-6-6 6-6" /> </svg><span class="truncate">Rô-bốt và AI</span></a>
+    <nav class="flex items-center gap-1.5" aria-label="Các bài trong chủ đề"><a href="canh-tay-robot.html" aria-label="Bài 1" class="block h-2 rounded-full transition-all w-2 bg-white/45 hover:bg-white/70"></a><a href="robot-benh-vien.html" aria-label="Bài 2" class="block h-2 rounded-full transition-all w-6 bg-white"></a><a href="robot-hut-bui.html" aria-label="Bài 3" class="block h-2 rounded-full transition-all w-2 bg-white/45 hover:bg-white/70"></a><a href="tri-tue-nhan-tao.html" aria-label="Bài 4" class="block h-2 rounded-full transition-all w-2 bg-white/45 hover:bg-white/70"></a></nav>
   </div>
 </header>
-<main class="wrap article">
-  <h1>Rô-bốt hỗ trợ trong bệnh viện</h1>
-  <a class="hero" href="../img/06-robot-benh-vien-l.webp" aria-label="Xem ảnh lớn: Rô-bốt hỗ trợ trong bệnh viện">
+
+<main class="mx-auto max-w-3xl px-5 pt-6 pb-4">
+  <div class="flex items-center gap-2 text-sm font-semibold text-(--c)">
+    <span class="grid size-7 place-items-center rounded-lg bg-(--tint)"><svg class="size-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M12 8V4H8" /> <rect x="4" y="8" rx="2" /> <path d="M2 14h2" /> <path d="M20 14h2" /> <path d="M15 13v2" /> <path d="M9 13v2" /> </svg></span>
+    Bài 2 / 4
+  </div>
+  <h1 class="mt-2 font-display text-[2.2rem] leading-[1.08] font-extrabold text-balance text-(--c) sm:text-5xl">Rô-bốt hỗ trợ trong bệnh viện</h1>
+
+  <a href="../img/06-robot-benh-vien-l.webp" class="glightbox group relative mt-5 -mx-2 block overflow-hidden rounded-3xl bg-(--tint) shadow-xl ring-4 ring-white sm:mx-0" data-title="Rô-bốt hỗ trợ trong bệnh viện" aria-label="Xem ảnh lớn">
     <img src="../img/06-robot-benh-vien-m.webp" srcset="../img/06-robot-benh-vien-m.webp 900w, ../img/06-robot-benh-vien-l.webp 1800w"
-         sizes="(min-width: 760px) 720px, 100vw" width="900" height="600" alt="Hình minh họa: Rô-bốt hỗ trợ trong bệnh viện" fetchpriority="high">
-    <span class="zoom">Chạm để xem ảnh lớn</span>
+         sizes="(min-width: 768px) 720px, 100vw" width="900" height="600" alt="Hình minh họa: Rô-bốt hỗ trợ trong bệnh viện" fetchpriority="high" class="w-full">
+    <span class="absolute right-3 bottom-3 inline-flex items-center gap-1.5 rounded-full bg-black/60 px-3 py-1.5 text-sm font-semibold text-white backdrop-blur"><svg class="size-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m21 21-6-6m6 6v-4.8m0 4.8h-4.8" /> <path d="M3 16.2V21m0 0h4.8M3 21l6-6" /> <path d="M21 7.8V3m0 0h-4.8M21 3l-6 6" /> <path d="M3 7.8V3m0 0h4.8M3 3l6 6" /> </svg> Chạm để phóng to</span>
   </a>
-  <p class="question">Em có biết rô-bốt cũng có thể làm việc trong bệnh viện, bên cạnh các bác sĩ và điều dưỡng không?</p>
-  <p class="text">Một số bệnh viện sử dụng rô-bốt để vận chuyển thuốc, đồ vải hoặc vật dụng giữa các khu vực. Có loại rô-bốt tự di chuyển theo lộ trình đã được cài đặt và dùng cảm biến để nhận biết, tránh chướng ngại vật. Nhờ đó, nhân viên y tế tiết kiệm thời gian cho một số việc vận chuyển và có thêm thời gian chăm sóc người bệnh. Dù hiện đại đến đâu, rô-bốt vẫn chỉ là thiết bị hỗ trợ. Việc thăm khám, chăm sóc và quyết định điều trị vẫn do con người đảm nhiệm.</p>
 
-  <details class="box think">
-    <summary>Cùng suy nghĩ nhé!</summary>
-    <ol><li>Rô-bốt có thể giúp nhân viên bệnh viện làm những công việc gì?</li><li>Theo em, vì sao rô-bốt không thể thay thế hoàn toàn bác sĩ?</li></ol>
-  </details>
-  <details class="box fun">
-    <summary>Điều thú vị</summary>
-    <p>Có rô-bốt bệnh viện tự động mở cửa hoặc gọi thang máy để di chuyển giữa các tầng.</p>
-  </details>
+  <div class="mt-7 flex gap-3 rounded-2xl bg-(--tint) p-4 sm:p-5">
+    <span class="grid size-10 shrink-0 place-items-center rounded-full bg-white text-(--c) shadow-sm"><svg class="size-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="10" /> <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" /> <path d="M12 17h.01" /> </svg></span>
+    <p class="text-[1.15rem] leading-relaxed font-semibold">Em có biết rô-bốt cũng có thể làm việc trong bệnh viện, bên cạnh các bác sĩ và điều dưỡng không?</p>
+  </div>
 
-  <p class="source">Nguồn tham khảo: <a href="https://ifr.org/service-robots" rel="noopener" target="_blank">International Federation of Robotics – Service Robots</a></p>
+  <p class="mt-6 text-[1.2rem] leading-[1.8] text-pretty">Một số bệnh viện sử dụng rô-bốt để vận chuyển thuốc, đồ vải hoặc vật dụng giữa các khu vực. Có loại rô-bốt tự di chuyển theo lộ trình đã được cài đặt và dùng cảm biến để nhận biết, tránh chướng ngại vật. Nhờ đó, nhân viên y tế tiết kiệm thời gian cho một số việc vận chuyển và có thêm thời gian chăm sóc người bệnh. Dù hiện đại đến đâu, rô-bốt vẫn chỉ là thiết bị hỗ trợ. Việc thăm khám, chăm sóc và quyết định điều trị vẫn do con người đảm nhiệm.</p>
 
-  <nav class="prevnext" aria-label="Chuyển bài"><a class="pn prev" href="canh-tay-robot.html"><small>Bài trước</small>Cánh tay rô-bốt trong nhà máy</a><a class="pn next" href="robot-hut-bui.html"><small>Bài tiếp theo</small>Rô-bốt hút bụi trong gia đình</a></nav>
+  <div class="mt-8 space-y-3">
+    <details class="group rounded-2xl bg-white ring-2 ring-(--tint) open:ring-(--c)">
+      <summary class="flex min-h-16 cursor-pointer items-center gap-3 px-4 py-3">
+        <span class="grid size-10 shrink-0 place-items-center rounded-full bg-(--tint) text-(--c)"><svg class="size-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" /> <path d="M9 18h6" /> <path d="M10 22h4" /> </svg></span>
+        <span class="flex-1 font-display text-xl font-bold">Cùng suy nghĩ nhé!</span>
+        <span class="text-(--c) transition-transform duration-300 group-open:rotate-180"><svg class="size-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m6 9 6 6 6-6" /> </svg></span>
+      </summary>
+      <ol class="space-y-3 px-4 pb-5 text-[1.1rem] leading-relaxed"><li class="flex gap-3"><span class="grid size-8 shrink-0 place-items-center rounded-full bg-(--tint) font-bold text-(--c)">1</span><span class="pt-0.5">Rô-bốt có thể giúp nhân viên bệnh viện làm những công việc gì?</span></li><li class="flex gap-3"><span class="grid size-8 shrink-0 place-items-center rounded-full bg-(--tint) font-bold text-(--c)">2</span><span class="pt-0.5">Theo em, vì sao rô-bốt không thể thay thế hoàn toàn bác sĩ?</span></li></ol>
+    </details>
+    <details class="group rounded-2xl bg-white ring-2 ring-amber-100 open:bg-amber-50 open:ring-amber-400">
+      <summary class="flex min-h-16 cursor-pointer items-center gap-3 px-4 py-3">
+        <span class="grid size-10 shrink-0 place-items-center rounded-full bg-amber-100 text-amber-500"><svg class="size-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" /> <path d="M20 3v4" /> <path d="M22 5h-4" /> <path d="M4 17v2" /> <path d="M5 18H3" /> </svg></span>
+        <span class="flex-1 font-display text-xl font-bold">Điều thú vị</span>
+        <span class="text-amber-600 transition-transform duration-300 group-open:rotate-180"><svg class="size-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m6 9 6 6 6-6" /> </svg></span>
+      </summary>
+      <p class="px-4 pb-5 pl-[4.25rem] text-[1.1rem] leading-relaxed">Có rô-bốt bệnh viện tự động mở cửa hoặc gọi thang máy để di chuyển giữa các tầng.</p>
+    </details>
+  </div>
+
+  <p class="mt-7 text-sm leading-relaxed break-words text-ink-soft">Nguồn tham khảo: <a href="https://ifr.org/service-robots" target="_blank" rel="noopener" class="underline decoration-1 underline-offset-2">International Federation of Robotics – Service Robots</a></p>
+
+  <nav class="mt-8 grid grid-cols-2 gap-3" aria-label="Chuyển bài">
+    <a href="canh-tay-robot.html" class="flex items-center gap-2 rounded-2xl bg-white p-4 ring-2 ring-(--tint) hover:ring-(--c)">
+      <span class="text-(--c)"><svg class="size-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m15 18-6-6 6-6" /> </svg></span>
+      <span><span class="block text-sm font-semibold text-(--c)">Bài trước</span><span class="font-display text-[1.05rem] leading-snug font-bold">Cánh tay rô-bốt trong nhà máy</span></span></a>
+    <a href="robot-hut-bui.html" class="flex items-center justify-end gap-2 rounded-2xl bg-(--c) p-4 text-right text-white shadow-lg shadow-(color:--tint) hover:brightness-110">
+      <span><span class="block text-sm font-semibold text-white/85">Bài tiếp theo</span><span class="font-display text-[1.05rem] leading-snug font-bold">Rô-bốt hút bụi trong gia đình</span></span>
+      <svg class="size-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m9 18 6-6-6-6" /> </svg></a>
+  </nav>
 </main>
 
+<footer class="mx-auto max-w-3xl px-5 pt-10 pb-12 text-center">
+  <p class="font-display text-lg font-bold text-ink-soft">“Đọc hôm nay – Kiến tạo ngày mai!”</p>
+</footer>
+
+<script src="../assets/glightbox.min.js"></script><script>GLightbox({selector:'.glightbox',touchNavigation:true,zoomable:true,openEffect:'zoom',closeEffect:'fade'});</script>
 </body>
 </html>
